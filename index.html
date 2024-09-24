@@ -2,14 +2,18 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Quiz Para Programadores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Teste seus conhecimentos com esse Quiz interativo">
+    <title>Quiz Para Programadores</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Quiz interativo para programadores</h1>
         <p>Teste seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
     </header>
+
     <main>
         <!-- Introdução -->
         <section>
@@ -18,6 +22,7 @@
             <p>Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data. <br>Desafie-se com este quiz!</p>
             <p>Você poderá encontrar alguns acrônimos como <abbr title="HyperTest Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web.</p>
         </section>
+
         <!-- Pergunta 1: Múltipla escolha -->
         <section>
             <h2>1. Qual linguagem é usada para estruturar páginas web?</h2>
@@ -29,6 +34,7 @@
                 <input type="radio" value="JavaScript" id="p1e" name="pergunta1"><label for="p1e">JavaScript</label><br>
             </form>
         </section>
+
         <!-- Pergunta 2: Texto -->
         <section>
             <h2>2. Na URL https://www.google.com o trecho "google.com" é o ___________?</h2>
@@ -36,6 +42,7 @@
                 <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
             </form>
         </section>
+
         <!-- Pergunta 3: Senha -->
         <section>
             <h2>3. Escreva um exemplo de senha forte!</h2>    
@@ -43,6 +50,7 @@
                 <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha...">
             </form>
         </section>
+
         <!-- Pergunta 4: Data -->
         <section>
             <h2>4. Em que ano o HTML lançou a sua primeira versão?</h2>
@@ -50,6 +58,7 @@
                 <input type="date" id="p4" name="pergunta4">
             </form>
         </section>
+
         <!-- Pergunta 5: Múltipla escolha -->
         <section>
             <h2>5. Quais dessas tecnologias são consideradas linguagens de programação?</h2>
@@ -60,6 +69,7 @@
                 <input type="checkbox" id="p5d" name="pergunta5" value="Java"><label for="p5d">Java</label>
             </form>
         </section>
+
         <!-- Pergunta 6: Upload de arquivo -->
         <section>
             <h2>6. Faça o upload de um arquivo contendo código HTML.</h2>
@@ -67,6 +77,7 @@
                 <input type="file" id="p6" name="pergunta6">
             </form>
         </section>
+
         <!-- Pergunta 7: Menu suspenso -->
         <section>
             <h2>7. Selecione o atributo do input que define o seu tipo:</h2>
@@ -78,6 +89,7 @@
                 </select>
             </form>
         </section>
+
         <!-- Pergunta 8: Imagem -->
         <section>
             <h2>8. Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
@@ -127,7 +139,7 @@
                 <ol>
                     <li>HTML</li>
                     <li>Domínio</li>
-                    <li>ASDaksfn@123 ou outra</li>
+                    <li>ASDaksfn@739 ou outra</li>
                     <li>1991</li>
                     <li>Java, Python e Java</li>
                     <li>Arquivo com extensão .html</li>
@@ -153,11 +165,12 @@
                 </fieldset>
             </form>
         </section>
-    </main>
+    </main><br>
+
     <footer>
-        <p>&copy; Quiz de programação. Todos os direitos reservados!</p><br>
+        <p class="paragrafo-footer">&copy; Quiz de programação. Todos os direitos reservados!<br>
         <!-- Abrindo outra página html em outra aba -->
-        <p>Entre em contato comigo <a href="sobremim.html" target="_blank">por aqui!</a></p>
+        Entre em contato comigo <a href="sobremim.html" target="_blank">por aqui!</a></p>
     </footer>
 </body>
 </html>
